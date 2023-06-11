@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BackgroundCircle } from "./BackgroundCircle";
 import { Link } from "react-router-dom";
+import chandanPic2 from "../Assets/chandanPic2.jpeg";
 
 export const Hero = () => {
   const [text, setText] = useTypewriter({
@@ -22,7 +23,7 @@ export const Hero = () => {
         <BackgroundCircle />
         <img
           className="relative top-20 rounded-full h-32 w-32 mx-auto object-cover"
-          src="https://avatars.githubusercontent.com/u/106267404?v=4"
+          src={chandanPic2}
           alt="Profile Pic "
         />
         <div>

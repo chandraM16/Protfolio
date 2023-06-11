@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import chandanPic from "../Assets/chandanPic.jpeg";
 export const About = () => {
   return (
     <section id="about" className="snap-start xl:snap-center  ">
@@ -16,13 +16,13 @@ export const About = () => {
 
         <div className="flex flex-col justify-start items-center xl:mt-32 py-4 xl:flex-row xl:justify-evenly absolute top-28 xl:top-0">
           <motion.img
-            src="https://avatars.githubusercontent.com/u/106267404?v=4"
+            src={chandanPic}
             alt="photo"
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1.5 }}
             viewport={{ once: true }}
-            className=" md:mb-0 flex-shrink-0 w-44 h-44 rounded-full sm:w-80 sm:h-80  xl:w-[400px] xl:h-[450px] xl:rounded-lg "
+            className=" md:mb-0 flex-shrink-0 w-44 h-44 rounded-full sm:w-72 sm:h-72  xl:w-[350px] xl:h-[450px] xl:rounded-lg "
           />
           <div className="w-full h-full flex flex-col justify-start mt-12  xl:w-1/2 ">
             <h3 className="text-2xl font-semibold text-center mb-10">
