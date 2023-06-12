@@ -5,12 +5,12 @@ import { frontEndSkills, backEndSkills } from "./data";
 
 export const Skills = () => {
   return (
-    <section id="skill" className="snap-start">
+    <section id="skill" className="snap-start p-10 overflow-hidden">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-col h-screen xl:h-screen text-center px-10 justify-evenly mx-auto items-center relative overflow-scroll"
+        className="flex flex-col h-screen xl:h-screen text-center px-10 justify-evenly mx-auto items-center relative "
       >
         <h3 className="w-4/5 mt-16 uppercase tracking-[30px] text-gray-400 text-2xl absolute top-2 text-center">
           skills
