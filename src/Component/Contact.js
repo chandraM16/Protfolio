@@ -52,7 +52,7 @@ export const Contact = () => {
               <p className="text-2xl">
                 Looking For{" "}
                 <span className=" text-orange-400">Front End Developer</span>,{" "}
-                <span className=" text-orange-400">React Developer</span>
+                <span className=" text-orange-400">React Developer</span> role.
               </p>
             </div>
             <div className="flex items-center space-x-5">
