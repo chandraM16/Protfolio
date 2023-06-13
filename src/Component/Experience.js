@@ -4,12 +4,12 @@ import { ExpCard } from "./ExpCard";
 
 export const Experience = ({ exps, id }) => {
   return (
-    <section id={id} className="snap-center no-scrollbar overflow-auto ">
+    <section id={id} className="snap-center overflow-auto ">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="flex flex-col h-screen xl:h-screen text-center px-10 justify-evenly mx-auto items-center relative p-10 overflow-scroll md:overflow-hidden  "
+        className="flex flex-col h-screen xl:h-screen text-center px-10 justify-evenly mx-auto items-center relative p-10 no-scrollbar overflow-scroll md:overflow-hidden  "
       >
         <h3 className="w-4/5 mt-16 uppercase tracking-[15px] sm:tracking-[30px] text-gray-400 text-2xl absolute top-2 text-center">
           {id}

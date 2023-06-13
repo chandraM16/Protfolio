@@ -12,18 +12,18 @@ import {
 
 export const Contact = () => {
   return (
-    <section id="contact" className="snap-start xl:snap-center p-10  ">
+    <section id="contact" className="snap-start xl:snap-center   ">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-col h-screen text-center px-10 justify-evenly mx-auto items-center relative  "
+        className="flex flex-col h-screen text-center px-10 justify-evenly mx-auto items-center relative  overflow-scroll md:overflow-hidden"
       >
         <h3 className="w-4/5 mt-16 uppercase tracking-[30px] text-gray-400 text-2xl absolute top-2 text-center">
           Contact Me
         </h3>
 
-        <div className="flex flex-col space-y-10">
+        <div className="flex flex-col space-y-10 mt-[12rem] sm:mt-28">
           <h4 className="text-4xl font-semibold, text-center">
             I have got just what you need
             <span className="decoration-[#f7ab0a]/50 underline block my-1">
