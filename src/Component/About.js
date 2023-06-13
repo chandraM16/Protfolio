@@ -8,7 +8,7 @@ export const About = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-col h-screen text-center px-10 justify-evenly mx-auto items-center relative  "
+        className="flex flex-col h-screen text-center px-10 justify-evenly mx-auto items-center relative overflow-scroll md:overflow-hidden  "
       >
         <h3 className="w-4/5 mt-16 uppercase tracking-[30px] text-gray-400 text-2xl absolute top-2 text-center">
           About

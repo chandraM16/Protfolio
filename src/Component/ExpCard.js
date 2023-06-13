@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const ExpCard = ({ exp }) => {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-screen md:w-[80%] xl:w-[65%] h-auto snap-center bg-[#292929] p-4 sm:px-4 opacity-20 hover:opacity-100 transition-opacity duration-300 overflow-x-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[100%] md:w-[80%] xl:w-[65%] h-auto snap-center bg-[#292929] p-4 sm:px-4 opacity-20 hover:opacity-100 transition-opacity duration-300 overflow-x-hidden">
       <div className="px-0 md:px-10 w-full flex flex-col items-center ">
         <div className="flex w-full">
           <motion.img
